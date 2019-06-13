@@ -2,7 +2,7 @@
 
 BP神经网络是指用误差逆传播（error BackPropagation，简称BP）算法训练的多层前馈神经网络，BP算法的基本原理为：利用输出后的误差来估计输出层的直接前导层的误差，再用这个误差估计更前一层的误差，如此一层一层的反传下去，就获得了所有其他各层的误差估计。其模型如下图所示：
 
-![image](https://github.com/niym/machine-learning/tree/master/neural-networks/bp/image/bp-neuron-network.png)
+![image](https://github.com/niym/machine-learning/tree/master/neural-networks/bp/image/bp-neuron-network.jpg)
 
 上图所示的BP神经网络总共有3层，输入层有L1个神经元，隐层有L2个神经元，输出层有L3个神经元。假设隐层和输出层的激活函数都是用sigmoid函数：
 
